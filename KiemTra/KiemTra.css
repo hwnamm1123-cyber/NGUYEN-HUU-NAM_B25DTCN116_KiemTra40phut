@@ -1,0 +1,144 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+.pho-nha {
+    background-color: white;
+}
+
+.header {
+    background-color: rgb(192,57,43);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    color:white;
+}
+
+.logo {
+    background-color: rgb(192,57,43);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav {
+    background-color: rgb(192,57,43);
+}
+
+.nav a {
+    background-color: rgb(192,57,43);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white; 
+    text-decoration: none; 
+    margin-left: 30px; 
+    font-weight: 500;
+}
+
+.hero {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 60px 10%;
+    gap: 50px;
+}
+
+.hero-content { 
+    flex: 1; 
+    min-width: 300px; 
+}
+
+.hero-content h1 { 
+    font-size: 40px; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+.hero-content p { 
+    font-size: 18px; 
+    color: #666; 
+    line-height: 1.6; 
+}
+
+.hero-image { 
+    background-color: white;
+    flex: 1; 
+    min-width: 300px; 
+}
+
+.hero-image img { 
+    background-color: white;
+    width: 100%; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+}
+
+.menu { 
+    padding: 60px 10%; 
+    background-color: #fdfaf5; 
+    text-align: center; 
+}
+
+.title { 
+    background-color: white;
+    color: #b33939; 
+    font-size: 32px; 
+    margin-bottom: 40px; 
+}
+
+.grid {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    flex: 1 1 300px;
+    max-width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card img { 
+    background-color: white;
+    width: 100%; 
+    height: 220px; 
+    object-fit: cover; 
+}
+
+.card-info { 
+    background-color: white;
+    padding: 20px; 
+}
+
+.card-info h3 { 
+    margin: 0; 
+    color: #333; 
+}
+
+.price { 
+    color: #b33939; 
+    font-weight: bold; 
+    font-size: 20px; 
+    margin-top: 10px; 
+}
+
+.footer { 
+    background: #2c2c2c; 
+    color: #fff; 
+    padding: 30px; 
+    text-align: center; 
+    font-size: 14px;
+}
+
+.footer p {
+    background: #2c2c2c; 
+}
